@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA6E69A98B15B49358DCA75 /* Pods_Knaves.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72939B8F19B48C01483FC40 /* Pods_Knaves.framework */; };
+		B2045069264F2DA000F8EED7 /* WaitingRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2045068264F2DA000F8EED7 /* WaitingRoom.swift */; };
+		B22F2E052639B3CE00F058FF /* LocalJoined.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F2E042639B3CE00F058FF /* LocalJoined.swift */; };
+		B2494D4D26220C1300194DAF /* StartUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2494D4C26220C1300194DAF /* StartUp.swift */; };
+		B24C2997260BE08E005C17A5 /* KnavesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C2996260BE08E005C17A5 /* KnavesApp.swift */; };
+		B24C299B260BE091005C17A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24C299A260BE091005C17A5 /* Assets.xcassets */; };
+		B24C299E260BE091005C17A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24C299D260BE091005C17A5 /* Preview Assets.xcassets */; };
+		B24C29A9260BE205005C17A5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C29A8260BE205005C17A5 /* Card.swift */; };
+		B24C29AD260BE274005C17A5 /* KnavesPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C29AC260BE274005C17A5 /* KnavesPlayer.swift */; };
+		B24C29B9260BE84E005C17A5 /* KnavesGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C29B8260BE84E005C17A5 /* KnavesGame.swift */; };
+		B24C29BD260C0285005C17A5 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C29BC260C0285005C17A5 /* Hand.swift */; };
+		B2517C9026375C53009FC4E1 /* ScreenIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517C8F26375C53009FC4E1 /* ScreenIndex.swift */; };
+		B2517C9626375D8D009FC4E1 /* MultiStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517C9526375D8D009FC4E1 /* MultiStart.swift */; };
+		B2517C9A2637604D009FC4E1 /* MultiplayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517C992637604D009FC4E1 /* MultiplayerManager.swift */; };
+		B2517C9D263760D3009FC4E1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517C9C263760D3009FC4E1 /* Helpers.swift */; };
+		B2517CA0263762E6009FC4E1 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517C9F263762E6009FC4E1 /* GameOver.swift */; };
+		B2517CA426376A6E009FC4E1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517CA326376A6E009FC4E1 /* Settings.swift */; };
+		B2517CA726376C52009FC4E1 /* BrowseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517CA626376C52009FC4E1 /* BrowseScreen.swift */; };
+		B2517CAA26378045009FC4E1 /* LocalHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517CA926378045009FC4E1 /* LocalHost.swift */; };
+		B27E4325263DA3760041B546 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27E4324263DA3760041B546 /* GameKit.framework */; };
+		B27E4328263DB9580041B546 /* GameKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = B27E4327263DB9580041B546 /* GameKitUI */; };
+		B27E4330263DE8A40041B546 /* GameCenterStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E432F263DE8A40041B546 /* GameCenterStuff.swift */; };
+		B27E4333263DEA760041B546 /* ImageSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E4332263DEA760041B546 /* ImageSelect.swift */; };
+		B2887842264598FB007C6125 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2887841264598FA007C6125 /* GoogleService-Info.plist */; };
+		B2A94334260E6E70004BC634 /* HumanPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A94333260E6E70004BC634 /* HumanPlayer.swift */; };
+		B2A94337260EB1CD004BC634 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A94336260EB1CD004BC634 /* Table.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D09D6C01590F968A83811A4 /* Pods-Knaves.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knaves.debug.xcconfig"; path = "Target Support Files/Pods-Knaves/Pods-Knaves.debug.xcconfig"; sourceTree = "<group>"; };
+		4B3998AD4CB133090AFC5A6C /* Pods-Knaves.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knaves.release.xcconfig"; path = "Target Support Files/Pods-Knaves/Pods-Knaves.release.xcconfig"; sourceTree = "<group>"; };
+		B2045068264F2DA000F8EED7 /* WaitingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoom.swift; sourceTree = "<group>"; };
+		B22F2E042639B3CE00F058FF /* LocalJoined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJoined.swift; sourceTree = "<group>"; };
+		B2494D4C26220C1300194DAF /* StartUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUp.swift; sourceTree = "<group>"; };
+		B24C2993260BE08E005C17A5 /* Knaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24C2996260BE08E005C17A5 /* KnavesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnavesApp.swift; sourceTree = "<group>"; };
+		B24C299A260BE091005C17A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24C299D260BE091005C17A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B24C299F260BE091005C17A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24C29A8260BE205005C17A5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B24C29AC260BE274005C17A5 /* KnavesPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnavesPlayer.swift; sourceTree = "<group>"; };
+		B24C29B8260BE84E005C17A5 /* KnavesGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnavesGame.swift; sourceTree = "<group>"; };
+		B24C29BC260C0285005C17A5 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		B2517C8F26375C53009FC4E1 /* ScreenIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenIndex.swift; sourceTree = "<group>"; };
+		B2517C9526375D8D009FC4E1 /* MultiStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiStart.swift; sourceTree = "<group>"; };
+		B2517C992637604D009FC4E1 /* MultiplayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerManager.swift; sourceTree = "<group>"; };
+		B2517C9C263760D3009FC4E1 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B2517C9F263762E6009FC4E1 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		B2517CA326376A6E009FC4E1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B2517CA626376C52009FC4E1 /* BrowseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseScreen.swift; sourceTree = "<group>"; };
+		B2517CA926378045009FC4E1 /* LocalHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHost.swift; sourceTree = "<group>"; };
+		B27E4324263DA3760041B546 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B27E432F263DE8A40041B546 /* GameCenterStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterStuff.swift; sourceTree = "<group>"; };
+		B27E4332263DEA760041B546 /* ImageSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelect.swift; sourceTree = "<group>"; };
+		B2887841264598FA007C6125 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2A94333260E6E70004BC634 /* HumanPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanPlayer.swift; sourceTree = "<group>"; };
+		B2A94336260EB1CD004BC634 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		F72939B8F19B48C01483FC40 /* Pods_Knaves.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knaves.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24C2990260BE08E005C17A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27E4325263DA3760041B546 /* GameKit.framework in Frameworks */,
+				B27E4328263DB9580041B546 /* GameKitUI in Frameworks */,
+				0AA6E69A98B15B49358DCA75 /* Pods_Knaves.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EEA13E6AF11A292E37DCC8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D09D6C01590F968A83811A4 /* Pods-Knaves.debug.xcconfig */,
+				4B3998AD4CB133090AFC5A6C /* Pods-Knaves.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B24C298A260BE08E005C17A5 = {
+			isa = PBXGroup;
+			children = (
+				B2887841264598FA007C6125 /* GoogleService-Info.plist */,
+				B24C2995260BE08E005C17A5 /* Knaves */,
+				B24C2994260BE08E005C17A5 /* Products */,
+				B27E4323263DA3760041B546 /* Frameworks */,
+				2EEA13E6AF11A292E37DCC8B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B24C2994260BE08E005C17A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24C2993260BE08E005C17A5 /* Knaves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24C2995260BE08E005C17A5 /* Knaves */ = {
+			isa = PBXGroup;
+			children = (
+				B24C2996260BE08E005C17A5 /* KnavesApp.swift */,
+				B24C29A7260BE1E0005C17A5 /* Views */,
+				B2517C8E26375BA9009FC4E1 /* ViewModels */,
+				B24C29A6260BE1D9005C17A5 /* Models */,
+				B24C299F260BE091005C17A5 /* Info.plist */,
+				B24C299A260BE091005C17A5 /* Assets.xcassets */,
+				B24C299C260BE091005C17A5 /* Preview Content */,
+			);
+			path = Knaves;
+			sourceTree = "<group>";
+		};
+		B24C299C260BE091005C17A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B24C299D260BE091005C17A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B24C29A6260BE1D9005C17A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B24C29A8260BE205005C17A5 /* Card.swift */,
+				B24C29AC260BE274005C17A5 /* KnavesPlayer.swift */,
+				B24C29B8260BE84E005C17A5 /* KnavesGame.swift */,
+				B2517C992637604D009FC4E1 /* MultiplayerManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B24C29A7260BE1E0005C17A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2517C8F26375C53009FC4E1 /* ScreenIndex.swift */,
+				B24C29BC260C0285005C17A5 /* Hand.swift */,
+				B2A94336260EB1CD004BC634 /* Table.swift */,
+				B2494D4C26220C1300194DAF /* StartUp.swift */,
+				B2517C9526375D8D009FC4E1 /* MultiStart.swift */,
+				B2517C9F263762E6009FC4E1 /* GameOver.swift */,
+				B2517CA326376A6E009FC4E1 /* Settings.swift */,
+				B2517CA626376C52009FC4E1 /* BrowseScreen.swift */,
+				B2517CA926378045009FC4E1 /* LocalHost.swift */,
+				B22F2E042639B3CE00F058FF /* LocalJoined.swift */,
+				B27E4332263DEA760041B546 /* ImageSelect.swift */,
+				B2045068264F2DA000F8EED7 /* WaitingRoom.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2517C8E26375BA9009FC4E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B2A94333260E6E70004BC634 /* HumanPlayer.swift */,
+				B2517C9C263760D3009FC4E1 /* Helpers.swift */,
+				B27E432F263DE8A40041B546 /* GameCenterStuff.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B27E4323263DA3760041B546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27E4324263DA3760041B546 /* GameKit.framework */,
+				F72939B8F19B48C01483FC40 /* Pods_Knaves.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24C2992260BE08E005C17A5 /* Knaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24C29A2260BE091005C17A5 /* Build configuration list for PBXNativeTarget "Knaves" */;
+			buildPhases = (
+				5B03C5FBCFCE6D480EBDC263 /* [CP] Check Pods Manifest.lock */,
+				B24C298F260BE08E005C17A5 /* Sources */,
+				B24C2990260BE08E005C17A5 /* Frameworks */,
+				B24C2991260BE08E005C17A5 /* Resources */,
+				15A32F927FD37B7A5A2C29FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knaves;
+			packageProductDependencies = (
+				B27E4327263DB9580041B546 /* GameKitUI */,
+			);
+			productName = Knaves;
+			productReference = B24C2993260BE08E005C17A5 /* Knaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24C298B260BE08E005C17A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B24C2992260BE08E005C17A5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B24C298E260BE08E005C17A5 /* Build configuration list for PBXProject "Knaves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24C298A260BE08E005C17A5;
+			packageReferences = (
+				B27E4326263DB9580041B546 /* XCRemoteSwiftPackageReference "GameKitUI.swift" */,
+			);
+			productRefGroup = B24C2994260BE08E005C17A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24C2992260BE08E005C17A5 /* Knaves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24C2991260BE08E005C17A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24C299E260BE091005C17A5 /* Preview Assets.xcassets in Resources */,
+				B24C299B260BE091005C17A5 /* Assets.xcassets in Resources */,
+				B2887842264598FB007C6125 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15A32F927FD37B7A5A2C29FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Knaves/Pods-Knaves-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Knaves/Pods-Knaves-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Knaves/Pods-Knaves-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B03C5FBCFCE6D480EBDC263 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Knaves-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24C298F260BE08E005C17A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2517C9026375C53009FC4E1 /* ScreenIndex.swift in Sources */,
+				B2517CA726376C52009FC4E1 /* BrowseScreen.swift in Sources */,
+				B24C29B9260BE84E005C17A5 /* KnavesGame.swift in Sources */,
+				B2517CAA26378045009FC4E1 /* LocalHost.swift in Sources */,
+				B2045069264F2DA000F8EED7 /* WaitingRoom.swift in Sources */,
+				B24C29BD260C0285005C17A5 /* Hand.swift in Sources */,
+				B27E4330263DE8A40041B546 /* GameCenterStuff.swift in Sources */,
+				B24C29A9260BE205005C17A5 /* Card.swift in Sources */,
+				B2517CA426376A6E009FC4E1 /* Settings.swift in Sources */,
+				B22F2E052639B3CE00F058FF /* LocalJoined.swift in Sources */,
+				B2A94334260E6E70004BC634 /* HumanPlayer.swift in Sources */,
+				B27E4333263DEA760041B546 /* ImageSelect.swift in Sources */,
+				B2517C9A2637604D009FC4E1 /* MultiplayerManager.swift in Sources */,
+				B24C29AD260BE274005C17A5 /* KnavesPlayer.swift in Sources */,
+				B2517C9626375D8D009FC4E1 /* MultiStart.swift in Sources */,
+				B2517CA0263762E6009FC4E1 /* GameOver.swift in Sources */,
+				B2494D4D26220C1300194DAF /* StartUp.swift in Sources */,
+				B2517C9D263760D3009FC4E1 /* Helpers.swift in Sources */,
+				B2A94337260EB1CD004BC634 /* Table.swift in Sources */,
+				B24C2997260BE08E005C17A5 /* KnavesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B24C29A0260BE091005C17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B24C29A1260BE091005C17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24C29A3260BE091005C17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D09D6C01590F968A83811A4 /* Pods-Knaves.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Knaves/Preview Content\"";
+				DEVELOPMENT_TEAM = 782R2AM7N5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Knaves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex-cameron.Knaves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B24C29A4260BE091005C17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3998AD4CB133090AFC5A6C /* Pods-Knaves.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Knaves/Preview Content\"";
+				DEVELOPMENT_TEAM = 782R2AM7N5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Knaves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex-cameron.Knaves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24C298E260BE08E005C17A5 /* Build configuration list for PBXProject "Knaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24C29A0260BE091005C17A5 /* Debug */,
+				B24C29A1260BE091005C17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24C29A2260BE091005C17A5 /* Build configuration list for PBXNativeTarget "Knaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24C29A3260BE091005C17A5 /* Debug */,
+				B24C29A4260BE091005C17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B27E4326263DB9580041B546 /* XCRemoteSwiftPackageReference "GameKitUI.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftPackageRepository/GameKitUI.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B27E4327263DB9580041B546 /* GameKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B27E4326263DB9580041B546 /* XCRemoteSwiftPackageReference "GameKitUI.swift" */;
+			productName = GameKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B24C298B260BE08E005C17A5 /* Project object */;
+}
